@@ -1,0 +1,15 @@
+.task-items-container{
+  .task-items-header .delete-btn{
+    float: right;
+    padding: 10px;
+    margin-right: 23px;
+    height: 52px;
+    text-align: center;
+    font-size: 26px;
+    background-color: red;
+    border-radius: 14px;
+  }
+}
+.task-items-container.reminder{
+ border-left:  5px solid green;
+}

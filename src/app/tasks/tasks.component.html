@@ -1,0 +1,10 @@
+<app-add-rask
+
+  (onAddTask)="addTask($event)">
+</app-add-rask>
+<app-tasks-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onToggleReminder)="updateTask(task)"
+></app-tasks-item>

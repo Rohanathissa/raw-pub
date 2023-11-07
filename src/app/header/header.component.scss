@@ -1,0 +1,10 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px !important;
+  .task-deader{
+    font-size: 40px;
+  }
+}
