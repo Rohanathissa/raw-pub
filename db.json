@@ -15,12 +15,6 @@
       "reminder": false
     },
     {
-      "id": "2",
-      "text": "doctor appointment",
-      "day": "May 5th at 2.30 pm",
-      "reminder": false
-    },
-    {
       "id": "3",
       "text": "doctor appointment",
       "day": "May 5th at 2.30 pm",
@@ -31,6 +25,12 @@
       "day": "test123",
       "reminder": true,
       "id": "B9rEmiv"
+    },
+    {
+      "text": "test 1",
+      "day": "fdfdfd",
+      "reminder": true,
+      "id": "HNMdaTO"
     }
   ]
 }

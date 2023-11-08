@@ -8,7 +8,7 @@ import {HeaderComponent} from './header/header.component';
 import {ButtonComponent} from './button/button.component';
 import {TasksComponent} from './tasks/tasks.component';
 import {TasksItemComponent} from './tasks-item/tasks-item.component';
-import {AddRaskComponent} from './add-rask/add-rask.component';
+import {AddTaskComponent} from './add-task/add-task.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatCheckboxModule} from '@angular/material/checkbox';
@@ -26,7 +26,7 @@ import {MatTableModule} from '@angular/material/table';
     ButtonComponent,
     TasksComponent,
     TasksItemComponent,
-    AddRaskComponent,
+    AddTaskComponent,
     ShopComponent,
     ChartJsComponent,
     TableComponent,

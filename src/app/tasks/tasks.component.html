@@ -1,7 +1,8 @@
-<app-add-rask
 
-  (onAddTask)="addTask($event)">
-</app-add-rask>
+<app-add-task
+  (onAddTask)="addTask($event)"
+  [isShowAddTaskForm]= "isShowAddTaskForm">
+</app-add-task>
 <app-tasks-item
   *ngFor="let task of tasks"
   [task]="task"

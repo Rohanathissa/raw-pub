@@ -1,19 +1,24 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Task} from '../task';
+import {UiService} from '../../service/ui.service';
+import {Subscription} from 'rxjs';
 
 @Component({
-  selector: 'app-add-rask',
-  templateUrl: './add-rask.component.html',
-  styleUrls: ['./add-rask.component.scss']
+  selector: 'app-add-task',
+  templateUrl: './add-task.component.html',
+  styleUrls: ['./add-task.component.scss']
 })
-export class AddRaskComponent implements OnInit {
+export class AddTaskComponent implements OnInit {
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
+  @Input() isShowAddTaskForm: boolean;
   public text: string;
   public day: string;
   public reminder: boolean;
   public isAddTask = false;
 
-  constructor() {
+  public subscription: Subscription;
+  constructor(private  uiService: UiService) {
+    this.uiService.onToggle().subscribe((value) => (this.isAddTask = value));
   }
 
   ngOnInit(): void {

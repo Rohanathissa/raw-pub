@@ -1,6 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {UiService} from "../../service/ui.service";
-import {Subject, Subscription} from "rxjs";
+import {UiService} from '../../service/ui.service';
+import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit {
   subscription: Subscription;
 
   constructor(private uiService: UiService) {
-
     this.subscription = this.uiService.onToggle().subscribe((value) => (this.showAddTask = value));
   }
 

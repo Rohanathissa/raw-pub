@@ -11,6 +11,7 @@ import {TasksServiceService} from '../../service/tasks-service.service';
 })
 export class TasksComponent implements OnInit {
   tasks: Task[] = [];
+  isShowAddTaskForm = false;
 
   constructor(private tasksServiceService: TasksServiceService, ) {
   }
