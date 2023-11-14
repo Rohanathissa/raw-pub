@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'raw-product';
 
-  clickAdd(): void{
+  mainMenuTabbSelectionChanged(event): void{
     console.log('@@@@@@@@@@@@@@@@@@@@@');
   }
+
 }

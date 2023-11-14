@@ -2,9 +2,15 @@
   "user": [
     {
       "id": "1",
-      "name": "rohana",
-      "contact": "0719759280",
-      "mail": "rthissa91@gmail.com"
+      "username": "rohana",
+      "email": "0719759280",
+      "password": "rthissa91@gmail.com"
+    },
+    {
+      "id": "2",
+      "username": "rohana2",
+      "email": "0719759282",
+      "password": "rthissa92@gmail.com"
     }
   ],
   "tasks": [
@@ -31,6 +37,12 @@
       "day": "fdfdfd",
       "reminder": true,
       "id": "HNMdaTO"
+    },
+    {
+      "text": "rtgerdxs",
+      "day": "weredeed",
+      "reminder": true,
+      "id": "90lbF7S"
     }
   ]
 }

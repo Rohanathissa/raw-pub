@@ -47,5 +47,8 @@ export class TasksComponent implements OnInit {
       console.log('res==', res);
     });
   }
+  clickAdd(): void{
+    console.log('@@@@@@@@@@@@@@@@@@@@@');
+  }
 
 }

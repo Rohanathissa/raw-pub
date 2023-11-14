@@ -12,12 +12,19 @@ import {AddTaskComponent} from './add-task/add-task.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-import {ShopComponent} from './shop/shop.component';
 import {FormsModule} from '@angular/forms';
 import { ChartJsComponent } from './chart-js/chart-js.component';
 import { TableComponent } from './table/table.component';
 import { ExpandTableComponent } from './expand-table/expand-table.component';
 import {MatTableModule} from '@angular/material/table';
+import { LoginComponent } from './login/login.component';
+import {MatTabsModule} from "@angular/material/tabs";
+// import {RouterModule, Routes} from '@angular/router';
+
+// const appRoutes: Routes = [
+//   // {path: 'login', component: LoginComponent},
+//   // {path: 'task', component: TasksComponent}
+// ];
 
 @NgModule({
   declarations: [
@@ -27,10 +34,10 @@ import {MatTableModule} from '@angular/material/table';
     TasksComponent,
     TasksItemComponent,
     AddTaskComponent,
-    ShopComponent,
     ChartJsComponent,
     TableComponent,
-    ExpandTableComponent
+    ExpandTableComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,9 @@ import {MatTableModule} from '@angular/material/table';
     MatSlideToggleModule,
     MatCheckboxModule,
     FormsModule,
-    MatTableModule
+    MatTableModule,
+    MatTabsModule,
+    // RouterModule.forRoot(appRoutes, {enableTracing: true}),
   ],
   providers: [],
   bootstrap: [AppComponent]
