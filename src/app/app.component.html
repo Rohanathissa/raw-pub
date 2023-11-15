@@ -1,15 +1,7 @@
 <div class="row">
   <div class="col-12 main-manu.">
-    <mat-tab-group #tabGroup (selectedIndexChange)="mainMenuTabbSelectionChanged($event)" [selectedIndex]=0>
-      <mat-tab label="Home">
-      </mat-tab>
-      <mat-tab label="About" disabled="true">
-      </mat-tab>
-      <mat-tab label="Login" disabled="true">
-        <a href="" routerLink="/login">Login</a>
-      </mat-tab>
-
-    </mat-tab-group>
+    <app-main-menubar>
+    </app-main-menubar>
   </div>
   <div class="col-12 main-body">
     <div class="row">
@@ -17,8 +9,7 @@
         side manu
       </div>
       <div class="col-8 header-container" >
-        <router-outlet>
-        </router-outlet>
+        <router-outlet></router-outlet>
       </div>
       <div class="col-2">
         detail tab

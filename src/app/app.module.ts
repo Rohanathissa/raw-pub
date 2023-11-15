@@ -19,6 +19,7 @@ import { ExpandTableComponent } from './expand-table/expand-table.component';
 import {MatTableModule} from '@angular/material/table';
 import { LoginComponent } from './login/login.component';
 import {MatTabsModule} from "@angular/material/tabs";
+import { MainMenubarComponent } from './main-menubar/main-menubar.component';
 // import {RouterModule, Routes} from '@angular/router';
 
 // const appRoutes: Routes = [
@@ -37,7 +38,8 @@ import {MatTabsModule} from "@angular/material/tabs";
     ChartJsComponent,
     TableComponent,
     ExpandTableComponent,
-    LoginComponent
+    LoginComponent,
+    MainMenubarComponent
   ],
   imports: [
     BrowserModule,
