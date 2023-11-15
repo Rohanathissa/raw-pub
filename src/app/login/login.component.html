@@ -1,0 +1,40 @@
+<div class="row" [style.background-image]="'url(./assets/img/logo.jpg)'">
+  <div class="col-md-12 login-content">
+    <div class="card card-container">
+      <img
+        id="profile-img"
+        src="./assets/img/logo.jpg"
+        class="login-img-card"
+      />
+      <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+        <div class="login-input">
+          <input placeholder="User Name" type="text" class="form-control" name="username"
+                 [(ngModel)]="form.username"
+                 required
+                 #username="ngModel"
+          />
+          <div class="alert alert-danger" role="alert" *ngIf="username.errors && f.submitted">
+            Username is required!
+          </div>
+        </div>
+        <div class="login-input">
+          <input placeholder="Password" type="password" class="form-control" name="password"
+                 [(ngModel)]="form.password"
+                 required
+                 minlength="6"
+                 #password="ngModel"/>
+          <div class="alert alert-danger" role="alert" *ngIf="password.errors && f.submitted">
+            <div *ngIf="password.errors['required']">Password is required</div>
+            <div *ngIf="password.errors['minlength']">Password must be at least 6 characters</div>
+          </div>
+        </div>
+        <div class="btn-0login-input">
+          <button class="btn btn-primary btn-block">
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
