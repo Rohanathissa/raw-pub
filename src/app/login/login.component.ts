@@ -1,7 +1,8 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {AuthService} from '../../service/auth.service';
 import {Router} from '@angular/router';
 import {TokenService} from '../../service/token.service';
+import {MainMenubarComponent} from '../main-menubar/main-menubar.component';
 
 @Component({
   selector: 'app-login',
@@ -9,6 +10,7 @@ import {TokenService} from '../../service/token.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
+  @ViewChild(MainMenubarComponent) mainMenubarComponent: MainMenubarComponent;
   form: any = {
     username: null,
     password: null
@@ -23,10 +25,6 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // if (this.tokenStorage.getToken()) {
-    //   this.isLoggedIn = true;
-    //   this.roles = this.tokenStorage.getUser().roles;
-    // }
   }
 
   onSubmit(): void {
@@ -38,8 +36,9 @@ export class LoginComponent implements OnInit {
         this.isLoginFailed = false;
         this.isLoggedIn = true;
         // this.roles = this.tokenStorage.getUser().roles;
-        // this.reloadPage();
-        this.router.navigate(['/task']);
+        // this.mainMenubarComponent.loginUser();
+        this.router.navigate(['/home']).then(r => '/');
+
       }else {
         alert('Invalid User');
       }

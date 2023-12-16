@@ -1,71 +1,15 @@
-<div class="row">
-  <div class="col-12 main-manu.">
-    <app-main-menubar>
-    </app-main-menubar>
+<app-main-menubar>
+</app-main-menubar>
+<div class="row ">
+  <div class="col-2 main-side-menu">
+    side manu
   </div>
-  <div class="col-12 main-body">
-    <div class="row">
-      <div class="col-2">
-        side manu
-      </div>
-      <div class="col-8 header-container" >
-        <router-outlet></router-outlet>
-      </div>
-      <div class="col-2">
-        detail tab
-      </div>
-    </div>
-
+  <div class="col-8 header-container">
+    <router-outlet></router-outlet>
   </div>
-  <div class="col-12 main-footer">
-    <h3>About page</h3>
+  <div class="col-2 main-side-detail-menuj">
+    detail tab
   </div>
 </div>
-<!--<div class="header-container">-->
-<!--  <app-header (clickAdd)=clickAdd()>-->
-<!--  </app-header>-->
-<!--  <app-tasks>-->
-
-<!--  </app-tasks>-->
-
-<!--  <router-outlet>-->
-
-<!--  </router-outlet>-->
-
-
-<!--  <div>-->
-<!--    chart-->
-<!--    <canvas id="myChart"></canvas>-->
-<!--    <app-chart-js> ddddd </app-chart-js>-->
-<!--  </div>-->
-
-<!--  <app-table></app-table>-->
-<!--  <app-expand-table></app-expand-table>-->
-
-<!--</div>-->
-<!--<app-shop></app-shop>-->
-
-<!--<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
-
-<!--<script>-->
-<!--  const ctx = document.getElementById('myChart');-->
-
-<!--  new Chart(ctx, {-->
-<!--    type: 'bar',-->
-<!--    data: {-->
-<!--      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],-->
-<!--      datasets: [{-->
-<!--        label: '# of Votes',-->
-<!--        data: [12, 19, 3, 5, 2, 3],-->
-<!--        borderWidth: 1-->
-<!--      }]-->
-<!--    },-->
-<!--    options: {-->
-<!--      scales: {-->
-<!--        y: {-->
-<!--          beginAtZero: true-->
-<!--        }-->
-<!--      }-->
-<!--    }-->
-<!--  });-->
-<!--</script>-->
+<app-footer>
+</app-footer>

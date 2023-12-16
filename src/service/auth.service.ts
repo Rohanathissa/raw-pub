@@ -6,7 +6,7 @@ import {User} from '../app/model/user';
 @Injectable({
   providedIn: 'root'
 })
-export class AuthService {
+  export class AuthService {
   private apiUrl = 'http://localhost:5000/user';
 
   constructor(private http: HttpClient) {
@@ -20,4 +20,10 @@ export class AuthService {
     const url = `${this.apiUrl}/${id}`;
     return this.http.get<User[]>(url);
   }
+  isUserLogin(): boolean{
+    if (window.sessionStorage.getItem('is-login') === 'true'){
+      return true;
+    }
+    return false;
+}
 }

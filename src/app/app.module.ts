@@ -13,19 +13,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {FormsModule} from '@angular/forms';
-import { ChartJsComponent } from './chart-js/chart-js.component';
-import { TableComponent } from './table/table.component';
-import { ExpandTableComponent } from './expand-table/expand-table.component';
 import {MatTableModule} from '@angular/material/table';
-import { LoginComponent } from './login/login.component';
-import {MatTabsModule} from "@angular/material/tabs";
-import { MainMenubarComponent } from './main-menubar/main-menubar.component';
-// import {RouterModule, Routes} from '@angular/router';
+import {LoginComponent} from './login/login.component';
+import {MainMenubarComponent} from './main-menubar/main-menubar.component';
+import {HomeComponent} from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProductCardComponent } from './product-card/product-card.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+import {MatCardModule} from '@angular/material/card';
 
-// const appRoutes: Routes = [
-//   // {path: 'login', component: LoginComponent},
-//   // {path: 'task', component: TasksComponent}
-// ];
 
 @NgModule({
   declarations: [
@@ -35,11 +31,11 @@ import { MainMenubarComponent } from './main-menubar/main-menubar.component';
     TasksComponent,
     TasksItemComponent,
     AddTaskComponent,
-    ChartJsComponent,
-    TableComponent,
-    ExpandTableComponent,
     LoginComponent,
-    MainMenubarComponent
+    MainMenubarComponent,
+    HomeComponent,
+    FooterComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,8 +46,8 @@ import { MainMenubarComponent } from './main-menubar/main-menubar.component';
     MatCheckboxModule,
     FormsModule,
     MatTableModule,
-    MatTabsModule,
-    // RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    NgImageSliderModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

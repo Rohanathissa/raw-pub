@@ -3,19 +3,21 @@
     {
       "id": "1",
       "username": "rohana",
-      "email": "0719759280",
+      "email": "rthissa91@gmail.com",
+      "contact": "0719759280",
       "password": "rthissa91@gmail.com"
     },
     {
       "id": "2",
       "username": "rohana2",
-      "email": "0719759282",
+      "email": "rthissa92@gmail.com",
+      "contact": "0719759282",
       "password": "rthissa92@gmail.com"
     }
   ],
   "tasks": [
     {
-      "id": "1",
+        "id": "1",
       "text": "doctor appointment",
       "day": "May 5th at 2.30 pm",
       "reminder": false
@@ -38,5 +40,413 @@
       "reminder": true,
       "id": "90lbF7S"
     }
-  ]
+  ],
+  "products": [
+  {
+    "title": "Blue Sapphire",
+    "subTitle": "Royal blue",
+    "dimensions": {
+      "height": "6", "width": "6 mm", "length": "7 mm"
+    },
+    "origin": "Ceylon",
+    "treatment": "Natural, Heated",
+    shep: "Cushion",
+    weight: "'2.5 crt"',
+    cutTop: "Brilliant cuts",
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/main-slider/blue/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/blue/sub-image1.jpg',
+        thumbImage: '../../assets/img/blue/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/blue/sub-image2.jpg',
+        thumbImage: '../../assets/img/blue/main-image.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/blue/sub-image3.jpg',
+        thumbImage: '../../assets/img/blue/main-image.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Pink Sapphire',
+    subTitle: 'Baby blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/pink/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/pink/sub-image1.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/pink/sub-image2.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/pink/sub-image3.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Yellow Sapphire',
+    subTitle: 'Golden blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/yellow/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/yellow/sub-image1.jpg',
+        thumbImage: '../../assets/img/yellow/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/yellow/sub-image2.jpg',
+        thumbImage: '../../assets/img/yellow/sub-image2.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/yellow/sub-image3.jpg',
+        thumbImage: '../../assets/img/yellow/sub-image3.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Ruby',
+    subTitle: 'Pigeon Blood',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/ruby/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/ruby/sub-image1.jpg',
+        thumbImage: '../../assets/img/ruby/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/ruby/sub-image2.jpg',
+        thumbImage: '../../assets/img/ruby/sub-image2.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/ruby/sub-image3.jpg',
+        thumbImage: '../../assets/img/ruby/sub-image4.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },    {
+    title: 'Blue Sapphire',
+    subTitle: 'Royal blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Heated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/main-slider/blue/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/blue/sub-image1.jpg',
+        thumbImage: '../../assets/img/blue/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/blue/sub-image2.jpg',
+        thumbImage: '../../assets/img/blue/main-image.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/blue/sub-image3.jpg',
+        thumbImage: '../../assets/img/blue/main-image.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Pink Sapphire',
+    subTitle: 'Baby blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/pink/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/pink/sub-image1.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/pink/sub-image2.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/pink/sub-image3.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Yellow Sapphire',
+    subTitle: 'Golden blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/yellow/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/yellow/sub-image1.jpg',
+        thumbImage: '../../assets/img/yellow/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/yellow/sub-image2.jpg',
+        thumbImage: '../../assets/img/yellow/sub-image2.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/yellow/sub-image3.jpg',
+        thumbImage: '../../assets/img/yellow/sub-image3.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Ruby',
+    subTitle: 'Pigeon Blood',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/ruby/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/ruby/sub-image1.jpg',
+        thumbImage: '../../assets/img/ruby/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/ruby/sub-image2.jpg',
+        thumbImage: '../../assets/img/ruby/sub-image2.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/ruby/sub-image3.jpg',
+        thumbImage: '../../assets/img/ruby/sub-image4.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Pink Sapphire',
+    subTitle: 'Baby blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/pink/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/pink/sub-image1.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/pink/sub-image2.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/pink/sub-image3.jpg',
+        thumbImage: '../../assets/img/pink/main-image.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Yellow Sapphire',
+    subTitle: 'Golden blue',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/yellow/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/yellow/sub-image1.jpg',
+        thumbImage: '../../assets/img/yellow/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/yellow/sub-image2.jpg',
+        thumbImage: '../../assets/img/yellow/sub-image2.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/yellow/sub-image3.jpg',
+        thumbImage: '../../assets/img/yellow/sub-image3.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  },
+  {
+    title: 'Ruby',
+    subTitle: 'Pigeon Blood',
+    dimensions: {
+      height: '6 mm', width: '6 mm', length: '7 mm'
+    },
+    origin: 'Ceylon',
+    treatment: 'Natural, Not any treated',
+    shep: 'Cushion',
+    weight: '2.5 crt',
+    cutTop: 'Brilliant cuts',
+    cutBottom: 'Step cut',
+    mainImage: '../../assets/img/ruby/main-image.jpg',
+    imgCollection: [
+      {
+        image: '../../assets/img/ruby/sub-image1.jpg',
+        thumbImage: '../../assets/img/ruby/main-image.jpg',
+        alt: 'Image 1',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/ruby/sub-image2.jpg',
+        thumbImage: '../../assets/img/ruby/sub-image2.jpg',
+        alt: 'Image 2',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+      {
+        image: '../../assets/img/ruby/sub-image3.jpg',
+        thumbImage: '../../assets/img/ruby/sub-image4.jpg',
+        alt: 'Image 3',
+        title: 'Image 122334',
+        description: 'first heading\'s description',
+      },
+    ]
+  }
+];
 }
