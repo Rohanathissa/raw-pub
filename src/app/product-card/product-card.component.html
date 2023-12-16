@@ -1,0 +1,75 @@
+<mat-card>
+  <mat-card-header>
+    <!--    console.log('@@@@@@@@@@@@@@@@@@============', this.m);-->
+    <mat-card-title>{{product.title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="mt-4">
+    <mat-card-subtitle class="prod-card-sub-title">
+      {{product.subTitle}}
+    </mat-card-subtitle>
+    <div class="row prod-card-desc">
+      <div class="col-12 col-md-6">
+        <span class="mat-card-header-span"> Origin </span>
+        <span class="mat-card-description-span"> : {{product?.origin}}</span>
+      </div>
+      <div class="col-12 col-md-6">
+        <span class="mat-card-header-span"> Weight </span>
+        <span class="mat-card-description-span"> : {{product?.weight}}</span>
+      </div>
+      <div class="col-12 col-md-6">
+        <span class="mat-card-header-span">Treatment: </span>
+        <span class="mat-card-description-span"> : {{product?.treatment}}</span>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-footer>
+    <div class="row w-100 prod-image-slider">
+      <div class="col-12">
+        <div style="width: 100%; height: 200px; text-align:center;margin:0; padding:0;">
+          <ng-image-slider #nav
+                           [images]="product.imgCollection"
+                           [imagePopup]="true"
+                           [infinite]="true"
+                           [autoSlide]="3"
+                           [imageSize]="{width: '100%', height: 150}"
+                           slideImage="1"
+                           (imageClick)="imageClickHandler($event)">
+          </ng-image-slider>
+        </div>
+      </div>
+    </div>
+    <div class="row prod-card-desc">
+      <mat-card-subtitle class="prod-card-sub-title">
+        Cut
+      </mat-card-subtitle>
+      <div class="col-12 col-md-4">
+        <span class="mat-card-header-span">Shep:</span>
+        <span class="mat-card-description-span">{{product?.shep}}</span>
+      </div>
+      <div class="col-12 col-md-4">
+        <span class="mat-card-header-span">Cut Top: </span>
+        <span class="mat-card-description-span"> {{product?.cutTop}}</span>
+      </div>
+      <div class="col-12 col-md-4">
+        <span class="mat-card-header-span"> Cut Bottom:</span>
+        <span class="mat-card-description-span">{{product?.cutBottom}}</span>
+      </div>
+    </div>
+    <div class="row prod-card-desc">
+      <mat-card-subtitle class="prod-card-sub-title">
+        Dimensions
+      </mat-card-subtitle>
+      <div class="col-12 col-md-4">
+        <span class="mat-card-header-span">Height: </span>
+        <span class="mat-card-description-span">{{product?.dimensions.height}}</span></div>
+      <div class="col-12 col-md-4">
+        <span class="mat-card-header-span"> Width: </span>
+        <span class="mat-card-description-span">{{product?.dimensions.width}}</span>
+      </div>
+      <div class="col-12 col-md-4">
+        <span class="mat-card-header-span"> Length:</span>
+        <span class="mat-card-description-span"> {{product?.dimensions.length}}</span>
+      </div>
+    </div>
+  </mat-card-footer>
+</mat-card>
